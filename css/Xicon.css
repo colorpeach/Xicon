@@ -1,0 +1,48 @@
+[class^='icon-']{
+    display:inline-block;
+    vertical-align: middle;
+    position: relative;
+    height:1em;
+    width:1em;
+    overflow:hidden;
+}
+
+[class^='icon-']:before,
+[class^='icon-']:after{
+    content: '';
+    pointer-events: none;
+}
+
+.icon-user:before{
+    height:0.5em;
+    width:0.5em;
+    background-color:#ddd;
+    border:.1em solid #fff;
+    -webkit-border-radius: 100%;
+    -moz-border-radius   : 100%;
+    -o-border-radius     : 100%;
+    border-radius        : 100%;
+    display:block;
+    position:absolute;
+    left:0;
+    right:0;
+    margin: auto;
+    z-index: 1;
+}
+
+.icon-user:after{
+    height: 0.8em;
+    width: 1em;
+    background-color: #DDD;
+    -webkit-border-top-left-radius: 100%;
+    -moz-border-top-left-radius: 100%;
+    -o-border-top-left-radius: 100%;
+    border-top-left-radius: 100%;
+    -webkit-border-top-right-radius: 100%;
+    -moz-border-top-right-radius: 100%;
+    -o-border-top-right-radius: 100%;
+    border-top-right-radius: 100%;
+    display: block;
+    position: absolute;
+    top: 0.5em;
+}
