@@ -46,3 +46,30 @@
     position: absolute;
     top: 0.5em;
 }
+
+/**
+ * written by tanxuewei --start
+ */
+.icon-plus:before {
+    height: 0.2em;
+    width: 1em;
+    background-color: #ddd;
+    display: block;
+    position: absolute;
+    top: 0.4em;
+    z-index: 1;
+}
+
+.icon-plus:after {
+    height: 1em;
+    width: 0.2em;
+    background-color: #ddd;
+    display: block;
+    position: absolute;
+    left: 0.4em;
+}
+/**
+ * written by tanxuewei --end
+ */
+
+
