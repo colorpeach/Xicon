@@ -2,11 +2,17 @@
     <head>
         <title>Xicon--demo</title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <link rel='stylesheet' href='css/Xicon.css' />
         <style type='text/css'>
             body{
                 font-family: Proxima Nova,Arial,Times,serif;
                 color:#666;
+            }
+            
+            .header{
+                margin:20px 0;
+                padding:5px 10px;
+                color:#fff;
+                background-color:#eaeaea;
             }
         
             .box{
@@ -15,7 +21,7 @@
                 font-size:20px;
             }
             
-            section{
+            .section{
                 padding:10px;
                 display:inline-block;
                 -webkit-box-sizing: border-box;
@@ -25,17 +31,18 @@
                 width:25%;
             }
             
-            section span{
+            .section span{
                 font-size:40px;
             }
             
-            figure{
+            .figure{
                 margin:0;
             }
             
-            figcaption{
+            .figcaption{
                 display:inline-block;
                 vertical-align:middle;
+                margin-left:10px;
             }
             
             p{
@@ -49,25 +56,70 @@
         </style>
     </head>
     <body>
-        <div class='box'>
-            <section>
-                <figure>
-                    <span class='icon-user'></span>
-                    <figcaption>
-                        <p>user</p>
-                        <i>.icon-user</i>
-                    </figcaption>
-                </figure>
-            </section>
-            <section>
-                <figure>
-                    <span class='icon-plus'></span>
-                    <figcaption>
-                        <p>plus</p>
-                        <i>.icon-plus</i>
-                    </figcaption>
-                </figure>
-            </section>
+        <div>
+            <select id='type'>
+                <option value='css'>css</option>
+                <option value='less'>less</option>
+            </select>
         </div>
+        <div class='box'>
+        </div>
+        <script type='text/javascript' src='icons.js'></script>
+        <script type='text/javascript'>
+            var href = 'css/Xicon.css',
+                type = location.search,
+                link = document.createElement('link'),
+                head = document.getElementsByTagName("head");
+                
+            head = head.length ? head[0] : document.documentElement;
+              
+            link.setAttribute('rel', 'stylesheet');  
+            link.setAttribute('type', 'text/css');
+            if(type && (type = type.split('=')[1]) !== 'css'){
+                href = ' /Xicon. '.replace(/\s/g,type);
+                link.setAttribute('rel', 'stylesheet/'+type);
+                
+                var script = document.createElement('script');
+                script.setAttribute('type', 'text/javascript');
+                script.setAttribute('src', 'lib/'+type+'.js');
+                head.appendChild(script);
+            }
+              
+            link.setAttribute("href", href); 
+            
+            head.appendChild(link);
+            
+            //add icons
+            var html = '';
+            for(var n in icons){
+                html += '<div class="header">支持 '+n+'</div>'
+                for(var i=0,len=icons[n].length;i<len;i++){
+                    html += template(icons[n][i]);
+                }
+            }
+            document.querySelector('.box').innerHTML = html;
+            
+            var select = document.getElementById('type');
+            
+            select.value = type ? type : 'css';
+            
+            select.onchange = function(){
+                location.href = '?type='+this.value;
+            };
+            
+            function template(mark){
+                return [
+                    '<div class="section">',
+                        '<div class="figure">',
+                            '<span class="icon-'+mark+'"></span>',
+                            '<div class="figcaption">',
+                                '<p>'+mark+'</p>',
+                                '<i>.icon-'+mark+'</i>',
+                            '</div>',
+                        '</div>',
+                    '</div>'
+                    ].join('');
+            };
+        </script>
     </body>
 </html>
