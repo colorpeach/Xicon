@@ -11,40 +11,39 @@
 [class^='icon-']:after{
     content: '';
     pointer-events: none;
+    background-color:#ddd;
 }
 
 .icon-user:before{
     height:0.5em;
     width:0.5em;
-    background-color:#ddd;
     border:.1em solid #fff;
-    -webkit-border-radius: 100%;
-    -moz-border-radius   : 100%;
-    -o-border-radius     : 100%;
-    border-radius        : 100%;
     display:block;
     position:absolute;
     left:0;
     right:0;
     margin: auto;
     z-index: 1;
+    -webkit-border-radius: 100%;
+       -moz-border-radius: 100%;
+         -o-border-radius: 100%;
+            border-radius: 100%;
 }
 
 .icon-user:after{
     height: 0.8em;
     width: 1em;
-    background-color: #DDD;
-    -webkit-border-top-left-radius: 100%;
-    -moz-border-top-left-radius: 100%;
-    -o-border-top-left-radius: 100%;
-    border-top-left-radius: 100%;
-    -webkit-border-top-right-radius: 100%;
-    -moz-border-top-right-radius: 100%;
-    -o-border-top-right-radius: 100%;
-    border-top-right-radius: 100%;
     display: block;
     position: absolute;
     top: 0.5em;
+    -webkit-border-top-left-radius: 100%;
+       -moz-border-top-left-radius: 100%;
+         -o-border-top-left-radius: 100%;
+            border-top-left-radius: 100%;
+    -webkit-border-top-right-radius: 100%;
+       -moz-border-top-right-radius: 100%;
+         -o-border-top-right-radius: 100%;
+            border-top-right-radius: 100%;
 }
 
 /**
@@ -53,7 +52,6 @@
 .icon-plus:before {
     height: 0.2em;
     width: 1em;
-    background-color: #ddd;
     display: block;
     position: absolute;
     top: 0.4em;
@@ -63,7 +61,6 @@
 .icon-plus:after {
     height: 1em;
     width: 0.2em;
-    background-color: #ddd;
     display: block;
     position: absolute;
     left: 0.4em;
@@ -71,5 +68,13 @@
 /**
  * written by tanxuewei --end
  */
+.icon-minus:before {
+    height: 0.2em;
+    width: 1em;
+    display: block;
+    position: absolute;
+    top: 0.4em;
+    z-index: 1;
+}
 
 

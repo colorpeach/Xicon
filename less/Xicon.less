@@ -1,0 +1,107 @@
+@icon-color:#ddd;
+
+[class^='icon-']{
+    display:inline-block;
+    vertical-align: middle;
+    position: relative;
+    height:1em;
+    width:1em;
+    overflow:hidden;
+}
+
+[class^='icon-']:before,
+[class^='icon-']:after{
+    content: '';
+    pointer-events: none;
+    background-color:@icon-color;
+}
+
+.border-radius (@radius){
+    -webkit-border-radius: @radius;
+       -moz-border-radius: @radius;
+         -o-border-radius: @radius;
+            border-radius: @radius;
+}
+
+.border-top-left-radius (@radius){
+    -webkit-border-top-left-radius: @radius;
+       -moz-border-top-left-radius: @radius;
+         -o-border-top-left-radius: @radius;
+            border-top-left-radius: @radius;
+}
+
+.border-top-right-radius (@radius){
+    -webkit-border-top-right-radius: @radius;
+       -moz-border-top-right-radius: @radius;
+         -o-border-top-right-radius: @radius;
+            border-top-right-radius: @radius;
+}
+
+.icon-{
+    &user:before{
+        height:0.5em;
+        width:0.5em;
+        border:.1em solid #fff;
+        display:block;
+        position:absolute;
+        left:0;
+        right:0;
+        margin: auto;
+        z-index: 1;
+        .border-radius(100%);
+    }
+    &user:after{
+        height: 0.8em;
+        width: 1em;
+        display: block;
+        position: absolute;
+        top: 0.5em;
+        .border-top-left-radius(100%);
+        .border-top-right-radius(100%);
+    }
+    
+    &plus:before {
+        height: 0.2em;
+        width: 1em;
+        display: block;
+        position: absolute;
+        top: 0.4em;
+        z-index: 1;
+    }
+    &plus:after {
+        height: 1em;
+        width: 0.2em;
+        display: block;
+        position: absolute;
+        left: 0.4em;
+    }
+    
+    &minus:before {
+        height: 0.2em;
+        width: 1em;
+        display: block;
+        position: absolute;
+        top: 0.4em;
+        z-index: 1;
+    }
+    
+    &list{
+        border-top:0.2em solid @icon-color;
+    }
+    &list:before{
+        height: 0.2em;
+        width: 1em;
+        display: block;
+        position: absolute;
+        top: 0.2em;
+        z-index: 1;
+    }
+    &list:after{
+        height: 0.2em;
+        width: 1em;
+        display: block;
+        position: absolute;
+        top: 0.6em;
+        z-index: 1;
+    }
+}
