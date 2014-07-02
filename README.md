@@ -11,5 +11,48 @@ Xicon
 
 ***
 
+* mail
+* pencil
+* glass
+* star
 * `user`
+* film
+* th-large
+* zoom-in
+* zoom-out
+* off
 * signal
+* time
+* road
+* download
+* lock
+* flag
+* tag
+* tags
+* font
+* bold
+* italic
+* align-justify
+* list1
+* check
+* play
+* pause
+* stop
+* forward
+* chevron-right
+* remove-circle
+* ok-circle
+* ban-circle
+* arrow-left
+* folder-close
+* folder-open
+* bell
+* certificate
+* unchecked
+* expand
+* collapse-down
+* record
+* save
+* open
+
+
