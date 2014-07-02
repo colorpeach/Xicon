@@ -1,19 +1,9 @@
 @icon-color:#ddd;
 
-[class^='icon-']{
-    display:inline-block;
-    vertical-align: middle;
-    position: relative;
-    height:1em;
-    width:1em;
-    overflow:hidden;
-}
-
-[class^='icon-']:before,
-[class^='icon-']:after{
-    content: '';
-    pointer-events: none;
-    background-color:@icon-color;
+.box-sizing (@box){
+    -webkit-box-sizing: @box;
+       -moz-box-sizing: @box;
+            box-sizing: @box;
 }
 
 .border-radius (@radius){
@@ -37,17 +27,33 @@
             border-top-right-radius: @radius;
 }
 
+[class^='icon-']{
+    display:inline-block;
+    vertical-align: middle;
+    position: relative;
+    height:1em;
+    width:1em;
+    overflow:hidden;
+    .box-sizing (border-box);
+}
+
+[class^='icon-']:before,
+[class^='icon-']:after{
+    content: '';
+    pointer-events: none;
+}
+
 .icon-{
     &user:before{
         height:0.5em;
         width:0.5em;
-        border:.1em solid #fff;
         display:block;
         position:absolute;
         left:0;
         right:0;
         margin: auto;
         z-index: 1;
+        background-color:@icon-color;
         .border-radius(100%);
     }
     &user:after{
@@ -55,7 +61,8 @@
         width: 1em;
         display: block;
         position: absolute;
-        top: 0.5em;
+        background-color:@icon-color;
+        top: 0.6em;
         .border-top-left-radius(100%);
         .border-top-right-radius(100%);
     }
@@ -65,6 +72,7 @@
         width: 1em;
         display: block;
         position: absolute;
+        background-color:@icon-color;
         top: 0.4em;
         z-index: 1;
     }
@@ -73,6 +81,7 @@
         width: 0.2em;
         display: block;
         position: absolute;
+        background-color:@icon-color;
         left: 0.4em;
     }
     
@@ -81,6 +90,7 @@
         width: 1em;
         display: block;
         position: absolute;
+        background-color:@icon-color;
         top: 0.4em;
         z-index: 1;
     }
@@ -93,6 +103,7 @@
         width: 1em;
         display: block;
         position: absolute;
+        background-color:@icon-color;
         top: 0.2em;
         z-index: 1;
     }
@@ -101,6 +112,7 @@
         width: 1em;
         display: block;
         position: absolute;
+        background-color:@icon-color;
         top: 0.6em;
         z-index: 1;
     }
