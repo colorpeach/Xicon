@@ -5,7 +5,8 @@ var icons = {
         'list'
     ],
     'ie9+':[
-        'user'
+        'user',
+        'mail'
     ],
     'ie10+':[
         
