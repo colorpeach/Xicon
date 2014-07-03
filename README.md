@@ -9,6 +9,39 @@ Xicon
 
 ***
 
+* `minus`
+* heart
+* star-solid
+* ok
+* remove
+* home
+* file
+* play-circle
+* align-center
+* map-marker
+* adjust
+* fast-background
+* background
+* eject
+* chevron-left
+* screenshot
+* arrow-down
+* chevron-up
+* chevron-down
+* hdd
+* tasks
+* filter
+* phone
+* pushpin
+* sort-by-order-alt
+* sort-by-attributes
+* flash
+* export
+* send
+* transfer
+
+
+
 ***
 
 * mail
