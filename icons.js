@@ -21,6 +21,7 @@ var icons = {
         'download',
         'lock',
         'flag',
+        'barcode',
         'tag',
         'tags',
         'font',
@@ -48,8 +49,5 @@ var icons = {
         'record',
         'save',
         'open'
-    ],
-    'ie10+':[
-        
     ]
 };
