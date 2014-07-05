@@ -208,19 +208,14 @@
         left: .5em;
     }
     
-    &chevron-right:before,
-    &chevron-right:after{
-        background-color:@icon-color;
-        height:.2em;
-        width:.5em;
-        left:.3em;
-    }
     &chevron-right:before{
-        top:.275em;
-        .transform(rotate(45deg));
-    }
-    &chevron-right:after{
-        top:.525em;
+        height:.3em;
+        width:.3em;
+        border-style:solid;
+        border-color:@icon-color;
+        border-width:0 .2em .2em 0;
+        top:.25em;
+        left:.2em;
         .transform(rotate(-45deg));
     }
     
@@ -419,47 +414,46 @@
         .border-radius(100%);
     }
     
-    &folder-close{
-        border-style:solid;
-        border-color:rgba(255,255,255,0) rgba(255,255,255,0) @icon-color rgba(255,255,255,0);
-        border-width:0 0 .75em;
-    }
     &folder-close:before{
         height:.1em;
-        width:.4em;
-        left:.2em;
+        width:.3em;
+        left:.15em;
+        top:.2em;
         background-color:@icon-color;
     }
     &folder-close:after{
-        height:.1em;
-        width:1em;
-        top:.1em;
-        background-color:@icon-color;
+        height:.05em;
+        width:.8em;
+        top:.3em;
+        border-style:solid;
+        border-color:@icon-color rgba(255,255,255,0);
+        border-width:.1em 0 .75em;
     }
     
     &folder-open{
         overflow:visible;
         border-style:solid;
-        border-color:rgba(255,255,255,0) rgba(255,255,255,0) @icon-color rgba(255,255,255,0);
-        border-width:0 0 .65em;
-        .transform(skewX(-20deg));
+        border-color:rgba(255,255,255,0);
+        border-width:.2em .55em .7em .15em;
+        background-color:@icon-color;
+        background-clip:content-box;
     }
     &folder-open:before{
-        height:.1em;
-        width:.4em;
-        left:-.2em;
+        height:.4em;
+        width:.8em;
+        top:.35em;
+        left:-.06em;
         background-color:@icon-color;
-        .transform(skewX(20deg));
+        .transform(skew(-20deg));
     }
     &folder-open:after{
         height:0;
-        width:.8em;
+        width:.67em;
         top:.1em;
-        left:-.2em;
+        left:-.15em;
         border-style:solid;
         border-color:@icon-color rgba(255,255,255,0) rgba(255,255,255,0) @icon-color;
-        border-width:.2em 0 .55em .2em;
-        .transform(skewX(20deg));
+        border-width:.2em 0 .35em .13em;
     }
     
 /*     &off:before{
@@ -499,19 +493,16 @@
     }
     
     &certificate{
-        width:.8em;
-        height:.8em;
         overflow:visible;
-        border:.1em solid rgba(255,255,255,0);
+        border:.15em solid rgba(255,255,255,0);
         background-color:@icon-color;
+        background-clip:content-box;
         .transform(rotate(45deg));
     }
     &certificate:before,
     &certificate:after{
-        width:.8em;
-        height:.8em;
-        left:-.1em;
-        top:-.1em;
+        width:.7em;
+        height:.7em;
         background-color:@icon-color;
     }
     &certificate:before{
@@ -531,6 +522,123 @@
     }
     &th-large:after{
         top:.55em;
+    }
+    
+    &flag:before{
+        height:1em;
+        width:.1em;
+        background-color:@icon-color;
+        left:.1em;
+    }
+    &flag:after{
+        height:.4em;
+        width:0;
+        border-style:solid;
+        border-color:rgba(255,255,255,0) rgba(255,255,255,0) rgba(255,255,255,0) @icon-color;
+        border-width:.1em 0 0 .6em;
+        left:.25em;
+        top:.1em;
+    }
+    
+    &save{
+        overflow:visible;
+        border-style:solid;
+        border-color:rgba(255,255,255,0);
+        border-width:.1em .4em .4em;
+        background-color:@icon-color;
+        background-clip:content-box;
+    }
+    &save:before{
+        height:.05em;
+        width:.1em;
+        border-style:solid;
+        border-color:@icon-color;
+        border-width:.125em .2em .125em .7em;
+        top:.6em;
+        left:-.4em;
+    }
+    &save:after{
+        border-style:solid;
+        border-color: @icon-color rgba(255,255,255,0) rgba(255,255,255,0) rgba(255,255,255,0);
+        border-width: .3em;
+        top:.3em;
+        left:-.2em;
+    }
+    
+    &open{
+        overflow:visible;
+        border-style:solid;
+        border-color:rgba(255,255,255,0);
+        border-width:.4em .4em .4em;
+        background-color:@icon-color;
+        background-clip:content-box;
+    }
+    &open:before{
+        height:.05em;
+        width:.1em;
+        border-style:solid;
+        border-color:@icon-color;
+        border-width:.125em .2em .125em .7em;
+        top:.3em;
+        left:-.4em;
+    }
+    &open:after{
+        border-style:solid;
+        border-color: rgba(255,255,255,0) rgba(255,255,255,0) @icon-color rgba(255,255,255,0);
+        border-width: .3em;
+        top:-.6em;
+        left:-.2em;
+    }
+    
+    &zoom-out{
+        overflow:visible;
+        border-style:solid;
+        border-color:rgba(255,255,255,0);
+        border-width:.7em .45em 0;
+        background-color:@icon-color;
+        background-clip:content-box;
+        .transform(rotate(-45deg));
+    }
+    &zoom-out:before{
+        height:.5em;
+        width:.5em;
+        top:-.6em;
+        left:-.3em;
+        border:.1em solid @icon-color;
+        .border-radius(100%);
+    }
+    &zoom-out:after{
+        width:.3em;
+        height:.1em;
+        top:-.3em;
+        left:-.08em;
+        background-color:@icon-color;
+        .transform(rotate(45deg));
+    }
+    
+    &zoom-in{
+        overflow:visible;
+        border-style:solid;
+        border-color:rgba(255,255,255,0);
+        border-width:.7em .45em 0;
+        background-color:@icon-color;
+        background-clip:content-box;
+        .transform(rotate(-45deg));
+    }
+    &zoom-in:before{
+        height:.5em;
+        width:.5em;
+        top:-.6em;
+        left:-.3em;
+        border:.1em solid @icon-color;
+        .border-radius(100%);
+    }
+    &zoom-in:after{
+        width:.1em;
+        height:.1em;
+        top:-.725em;
+        box-shadow:.3em .2em,.2em .3em,.3em .3em,.4em .3em,.3em .4em;
+        .transform(rotate(45deg));
     }
     
     &mail:before {
