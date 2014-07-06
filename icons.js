@@ -2,15 +2,16 @@ var icons = {
     'ie8+':[
         'plus',
         'minus',
+        'th-large',
         'list'
     ],
     'ie9+':[
         'user',
         'mail',
         'pencil',
+        'star',
         'glass',
         'film',
-        'th-large',
         'zoom-in',
         'zoom-out',
         'signal',
