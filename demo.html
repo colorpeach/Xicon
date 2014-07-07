@@ -12,7 +12,7 @@
                 margin:20px 0;
                 padding:5px 10px;
                 color:#fff;
-                background-color:#eaeaea;
+                background-color:rgba( 200, 50, 30 ,.6);
             }
         
             .box{
@@ -38,7 +38,7 @@
             }
             
             .section:hover{
-                background-color:#ddd;
+                background-color:rgba( 200, 50, 30 ,.6);
                 color:#fff;
             }
             
@@ -140,12 +140,10 @@
             
             //add icons
             var html = '';
-            for(var n in icons){
-                html += '<div class="header">支持 '+n+'</div>'
-                for(var i=0,len=icons[n].length;i<len;i++){
-                    html += template(icons[n][i]);
-                }
+            for(var i=0,len=icons.length;i<len;i++){
+                html += template(icons[i]);
             }
+                
             document.querySelector('.box').innerHTML = html;
             
             var select = document.getElementById('type');
