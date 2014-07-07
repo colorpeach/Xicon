@@ -1,8 +1,5 @@
 @icon-color:#666;
 
-@import 'Xicon1.less';
-@import 'Xicon2.less';
-
 .box-sizing (@box:border-box){
     -webkit-box-sizing: @box;
        -moz-box-sizing: @box;
@@ -10,6 +7,12 @@
 }
 
 .border-radius (@radius:100%){
+    -webkit-border-radius: @radius;
+       -moz-border-radius: @radius;
+         -o-border-radius: @radius;
+            border-radius: @radius;
+}
+.border-radius (@radius){
     -webkit-border-radius: @radius;
        -moz-border-radius: @radius;
          -o-border-radius: @radius;
@@ -28,6 +31,20 @@
        -moz-border-top-right-radius: @radius;
          -o-border-top-right-radius: @radius;
             border-top-right-radius: @radius;
+}
+
+.border-bottom-left-radius (@radius:100%){
+    -webkit-border-bottom-left-radius: @radius;
+       -moz-border-bottom-left-radius: @radius;
+         -o-border-bottom-left-radius: @radius;
+            border-bottom-left-radius: @radius;
+}
+
+.border-bottom-right-radius (@radius:100%){
+    -webkit-border-bottom-right-radius: @radius;
+       -moz-border-bottom-right-radius: @radius;
+         -o-border-bottom-right-radius: @radius;
+            border-bottom-right-radius: @radius;
 }
 
 .transform (@transform){
@@ -671,3 +688,6 @@
         box-shadow:.1em .1em,.2em .1em,.3em .1em,.4em .1em,.5em .1em,.6em .1em,.7em .1em,.8em .1em,.9em .1em,1em .1em,.1em .2em,.2em .2em,.3em .2em,.4em .2em,.5em .2em,.6em .2em,.7em .2em,.8em .2em,.9em .2em,1em .2em,.1em .3em,1em .3em,.1em .4em,.3em .4em,.5em .4em,.6em .4em,.7em .4em,.8em .4em,1em .4em,.1em .5em,1em .5em,.1em .6em,.3em .6em,.5em .6em,.6em .6em,.7em .6em,.8em .6em,1em .6em,.1em .7em,1em .7em,.1em .8em,.3em .8em,.5em .8em,.6em .8em,.7em .8em,.8em .8em,1em .8em,.1em .9em,1em .9em,.1em 1em,.2em 1em,.3em 1em,.4em 1em,.5em 1em,.6em 1em,.7em 1em,.8em 1em,.9em 1em,1em 1em;
     }
 }
+
+@import 'Xicon1.less';
+@import 'Xicon2.less';

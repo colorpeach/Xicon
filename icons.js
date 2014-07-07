@@ -1,11 +1,8 @@
-var icons = {
-    'ie8+':[
+var icons = [
         'plus',
         'minus',
         'th-large',
-        'list'
-    ],
-    'ie9+':[
+        'list',
         'user',
         'mail',
         'pencil',
@@ -45,6 +42,33 @@ var icons = {
         'collapse-down',
         'record',
         'save',
-        'open'
-    ]
-};
+        'open',
+        'heart',
+        'ok',
+        'remove',
+        'home',
+        'file',
+        'play-circle',
+        'align-center',
+        'map-marker',
+        'adjust',
+        'fast-backward',
+        'backward',
+        'eject',
+        'chevron-left',
+        'screenshot',
+        'arrow-down',
+        'chevron-up',
+        'chevron-down',
+        'hdd',
+        'tasks',
+        'filter',
+        'phone',
+        'pushpin',
+        'sort-by-order-alt',
+        'sort-by-attributes',
+        'flash',
+        'export',
+        'send',
+        'transfer'
+    ];

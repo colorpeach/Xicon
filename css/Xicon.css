@@ -754,3 +754,18 @@ width: .1em;
 height: .1em;
 box-shadow: .1em .1em,.2em .1em,.3em .1em,.4em .1em,.5em .1em,.6em .1em,.7em .1em,.8em .1em,.9em .1em,1em .1em,.1em .2em,.2em .2em,.3em .2em,.4em .2em,.5em .2em,.6em .2em,.7em .2em,.8em .2em,.9em .2em,1em .2em,.1em .3em,1em .3em,.1em .4em,.3em .4em,.5em .4em,.6em .4em,.7em .4em,.8em .4em,1em .4em,.1em .5em,1em .5em,.1em .6em,.3em .6em,.5em .6em,.6em .6em,.7em .6em,.8em .6em,1em .6em,.1em .7em,1em .7em,.1em .8em,.3em .8em,.5em .8em,.6em .8em,.7em .8em,.8em .8em,1em .8em,.1em .9em,1em .9em,.1em 1em,.2em 1em,.3em 1em,.4em 1em,.5em 1em,.6em 1em,.7em 1em,.8em 1em,.9em 1em,1em 1em;
 } 
+
+/**
+ *   written by tanxuewei
+*/
+.icon-heart {
+    overflow: visible;
+    width: 0;
+    height: 0;
+    bottom: 0;
+    border-style: solid;
+    border-width: .75em .5em 0;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+}
