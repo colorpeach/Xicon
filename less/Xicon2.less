@@ -86,6 +86,20 @@
         top: .28em;
         .border(.14em 0);
     }
+    &map-marker:before{
+        width: .4em;
+        height: .4em;
+        left: .2em;
+        top: .1em;
+        .border(.1em);
+        .border-radius;
+    }
+    &map-marker:after{
+        left: .27em;
+        top: .6em;
+        .border(.3em .24em 0);
+        .border-color(1,0,0,0);
+    }
     &adjust{
         .border(.1em);
         .border-radius;
@@ -192,6 +206,9 @@
         .border(0 .2em .2em 0);
         .transform(rotate(45deg));
     }
+    &hdd{
+         
+    }
     &tasks:before{
         width: .4em;
         height: .1em;
@@ -207,5 +224,52 @@
         top: .7em;
         .border(.05em .05em .05em .45em);
         .border-radius(.05em);
+    }
+    &filter{
+        .border(.1em 0 0);
+        .scale(.8,.8);
+    }
+    &filter:before{
+        width: 0.15em;
+        left: 0.1em;
+        top: 0.15em;
+        .border(.3em .3em 0);
+        .border-color(1,0,0,0);
+    }
+    &filter:after{
+        height: .2em;
+        left: .4em;
+        top: .5em;
+        .border(0 0 .2em .15em);
+        .border-color(0,0,0,1);
+    }
+    &phone:before{
+        width: .5em;
+        height: .65em;
+        left: .15em;
+        .border(.15em .1em 0);
+        .border-radius(.2em .2em 0 0);
+    }
+    &phone:after{
+        width: .1em;
+        height: .1em;
+        left: .15em;
+        top: .8em;
+        .border(.05em .3em);
+        .border-radius(0 0 .1em .1em);
+    }
+    &flash:before{
+        left: .15em;
+        top: .2em;
+        .border(.2em .5em 0 .1em);
+        .border-color(1,0,0,0);
+        .transform(rotate(-45deg));
+    }
+    &flash:after{
+        left: .05em;
+        top: .5em;
+        .border(.2em .5em 0 .1em);
+        .border-color(1,0,0,0);
+        .transform(rotate(135deg));
     }
 }

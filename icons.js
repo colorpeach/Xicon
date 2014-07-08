@@ -60,15 +60,8 @@ var icons = [
         'arrow-down',
         'chevron-up',
         'chevron-down',
-        'hdd',
         'tasks',
         'filter',
         'phone',
-        'pushpin',
-        'sort-by-order-alt',
-        'sort-by-attributes',
-        'flash',
-        'export',
-        'send',
-        'transfer'
+        'flash'
     ];

@@ -49,31 +49,38 @@
 
 .transform (@transform){
     -webkit-transform:@transform;
+        -ms-transform:@transform;
             transform:@transform;
 }
 
 .scale(@scaleX:1,@scaleY:1){
     -webkit-transform:scale(@scaleX,@scaleY);
+        -ms-transform:scale(@scaleX,@scaleY);
             transform:scale(@scaleX,@scaleY);
     &:before{
         -webkit-transform:scale(1/@scaleX,1/@scaleY);
+            -ms-transform:scale(1/@scaleX,1/@scaleY);
                 transform:scale(1/@scaleX,1/@scaleY);
     }
     &:after{
         -webkit-transform:scale(1/@scaleX,1/@scaleY);
+            -ms-transform:scale(1/@scaleX,1/@scaleY);
                 transform:scale(1/@scaleX,1/@scaleY);
     }
 };
 
 .scale-transform(@scaleX:1,@scaleY:1,@transform){
     -webkit-transform:scale(@scaleX,@scaleY) @transform;
+        -ms-transform:scale(@scaleX,@scaleY) @transform;
             transform:scale(@scaleX,@scaleY) @transform;
     &:before{
         -webkit-transform:scale(1/@scaleX,1/@scaleY);
+            -ms-transform:scale(1/@scaleX,1/@scaleY);
                 transform:scale(1/@scaleX,1/@scaleY);
     }
     &:after{
         -webkit-transform:scale(1/@scaleX,1/@scaleY);
+            -ms-transform:scale(1/@scaleX,1/@scaleY);
                 transform:scale(1/@scaleX,1/@scaleY);
     }
 };
