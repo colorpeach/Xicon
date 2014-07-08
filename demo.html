@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
     <head>
         <title>Xicon--demo</title>
@@ -119,6 +120,10 @@
                 type = location.search,
                 link = document.createElement('link'),
                 head = document.getElementsByTagName("head");
+                
+            window.console = {
+                log:function(){}
+            };
                 
             head = head.length ? head[0] : document.documentElement;
               
