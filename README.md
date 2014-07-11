@@ -1,4 +1,79 @@
 Xicon
 =====
 
-Useful icons with Pure CSS
+纯css实现的图标库
+
+进度
+=====
+下面列出了所有的图标，有`背景`的图标是已经实现了的，没有背景的图标还未实现；
+
+***
+
+* `minus`
+* `heart`
+* `ok`
+* `remove`
+* `home`
+* `file`
+* `play-circle`
+* `align-center`
+* `map-marker`
+* `adjust`
+* `fast-background`
+* `background`
+* `eject`
+* `chevron-left`
+* `screenshot`
+* `arrow-down`
+* `chevron-up`
+* `chevron-down`
+* `tasks`
+* `filter`
+* `phone`
+* `flash`
+* `export`
+
+***
+
+* `user`
+* `mail`
+* `pencil`
+* `glass`
+* `film`
+* `th-large`
+* `zoom-in`
+* `zoom-out`
+* `signal`
+* `time`
+* `download`
+* `lock`
+* `flag`
+* `barcode`
+* `tag`
+* `tags`
+* `font`
+* `bold`
+* `italic`
+* `align-justify`
+* `list1`
+* `check`
+* `play`
+* `pause`
+* `stop`
+* `forward`
+* `chevron-right`
+* `remove-circle`
+* `ok-circle`
+* `ban-circle`
+* `arrow-left`
+* `folder-close`
+* `folder-open`
+* `certificate`
+* `unchecked`
+* `expand`
+* `collapse-down`
+* `record`
+* `save`
+* `open`
+
+
