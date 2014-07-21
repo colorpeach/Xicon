@@ -63,5 +63,10 @@ var icons = [
         'tasks',
         'filter',
         'phone',
-        'flash'
+        'flash',
+        'asterisk',
+        'th-list',
+        'trash',
+        'upload',
+        'headphones'
     ];
