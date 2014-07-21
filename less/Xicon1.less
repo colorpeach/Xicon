@@ -1,3 +1,100 @@
-.icon-{
+.icon- {
+    &asterisk{
+        overflow:visible;
+        .border(0 0 0 .2em);
+       left:.4em;
+      
+    }
+    &asterisk:before,
+    &asterisk:after {
+        z-index: 1;
+    }
+    &asterisk:before {
+        width: 1em;
+        left:-.6em;
+        top:.4em;
+        .border(.2em 0 0 0);
+        .transform(rotate(40deg));
+    }
+    &asterisk:after {
+        width: 1em;
+        left: -.6em;
+        top:.4em;
+        .border(.2em 0 0 0);
+        .transform(rotate(-40deg));
+    }
     
+    &th-list{
+        overflow:visible;
+        top:-.4em;
+        .border(0 .7em 0 .2em);
+        .scale(1,.2);
+    }
+    &th-list:before{
+        top:2.3em;
+        left:-.2em;
+        height:.2em;
+        width:.1em;
+        .border(0 .7em 0 .2em);
+    }
+    &th-list:after{
+        top:4.3em;
+        left:-.2em;
+        height:.2em;
+        width:.1em;
+        .border(0 .7em 0 .2em);
+    }
+    
+    &trash{
+        top:.1em;
+        .border(0 .1em .1em .1em);
+        .border-radius(0 0 .1em .1em);
+        .scale(.8,.8);
+        overflow:visible;
+    }
+    &trash:before{
+        .border(.08em .08em 0 .08em);
+        width:.3em;
+        height:.1em;
+        left:.18em;
+        top:-.2em;
+    }
+    &trash:after{
+        .border(.1em 0 0 0);
+        width:1em;
+        left:-.1em;
+    }
+    
+    &upload{
+        .border(.1em);
+        .border-radius;
+    }
+    &upload:before{
+        top:.05em;
+        left:.2em;
+        .border(0 .2em .2em .2em);
+        .border-color(0,0,1,0);
+    }
+    &upload:after{
+        width:.2em;
+        top:.15em;
+        left:.3em;
+        .border(.5em 0 0);
+    }
+    
+    &headphones{
+        .border(.1em .1em .1em .1em);
+        .scale(.7, .6);
+        .border-top-left-radius;
+        .border-top-right-radius;
+        .border-color(1,1,0,1);
+        overflow:visible;
+    }
+    &headphones:before{
+        width:.2em;
+        height:.3em;
+        .border(0 .1em 0 .1em);
+        top:.65em;
+        left:.2em;
+    }
 }
