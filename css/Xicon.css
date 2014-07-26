@@ -792,6 +792,167 @@
   height: .1em;
   box-shadow: .1em .1em,.2em .1em,.3em .1em,.4em .1em,.5em .1em,.6em .1em,.7em .1em,.8em .1em,.9em .1em,1em .1em,.1em .2em,.2em .2em,.3em .2em,.4em .2em,.5em .2em,.6em .2em,.7em .2em,.8em .2em,.9em .2em,1em .2em,.1em .3em,1em .3em,.1em .4em,.3em .4em,.5em .4em,.6em .4em,.7em .4em,.8em .4em,1em .4em,.1em .5em,1em .5em,.1em .6em,.3em .6em,.5em .6em,.6em .6em,.7em .6em,.8em .6em,1em .6em,.1em .7em,1em .7em,.1em .8em,.3em .8em,.5em .8em,.6em .8em,.7em .8em,.8em .8em,1em .8em,.1em .9em,1em .9em,.1em 1em,.2em 1em,.3em 1em,.4em 1em,.5em 1em,.6em 1em,.7em 1em,.8em 1em,.9em 1em,1em 1em;
 }
+.icon-asterisk {
+  overflow: visible;
+  border-style: solid;
+  border-width: 0 0 0 0.2em;
+  left: .4em;
+}
+.icon-asterisk:before,
+.icon-asterisk:after {
+  z-index: 1;
+}
+.icon-asterisk:before {
+  width: 1em;
+  left: -0.6em;
+  top: .4em;
+  border-style: solid;
+  border-width: 0.2em 0 0 0;
+  -webkit-transform: rotate(40deg);
+  -ms-transform: rotate(40deg);
+  transform: rotate(40deg);
+}
+.icon-asterisk:after {
+  width: 1em;
+  left: -0.6em;
+  top: .4em;
+  border-style: solid;
+  border-width: 0.2em 0 0 0;
+  -webkit-transform: rotate(-40deg);
+  -ms-transform: rotate(-40deg);
+  transform: rotate(-40deg);
+}
+.icon-th-list {
+  overflow: visible;
+  top: -0.4em;
+  border-style: solid;
+  border-width: 0 0.7em 0 0.2em;
+  -webkit-transform: scale(1, 0.2);
+  -ms-transform: scale(1, 0.2);
+  transform: scale(1, 0.2);
+}
+.icon-th-list:before {
+  -webkit-transform: scale(1, 5);
+  -ms-transform: scale(1, 5);
+  transform: scale(1, 5);
+}
+.icon-th-list:after {
+  -webkit-transform: scale(1, 5);
+  -ms-transform: scale(1, 5);
+  transform: scale(1, 5);
+}
+.icon-th-list:before {
+  top: 2.3em;
+  left: -0.2em;
+  height: .2em;
+  width: .1em;
+  border-style: solid;
+  border-width: 0 0.7em 0 0.2em;
+}
+.icon-th-list:after {
+  top: 4.3em;
+  left: -0.2em;
+  height: .2em;
+  width: .1em;
+  border-style: solid;
+  border-width: 0 0.7em 0 0.2em;
+}
+.icon-trash {
+  top: .1em;
+  border-style: solid;
+  border-width: 0 0.1em 0.1em 0.1em;
+  -webkit-border-radius: 0 0 0.1em 0.1em;
+  -moz-border-radius: 0 0 0.1em 0.1em;
+  -o-border-radius: 0 0 0.1em 0.1em;
+  border-radius: 0 0 0.1em 0.1em;
+  -webkit-transform: scale(0.8, 0.8);
+  -ms-transform: scale(0.8, 0.8);
+  transform: scale(0.8, 0.8);
+  overflow: visible;
+}
+.icon-trash:before {
+  -webkit-transform: scale(1.25, 1.25);
+  -ms-transform: scale(1.25, 1.25);
+  transform: scale(1.25, 1.25);
+}
+.icon-trash:after {
+  -webkit-transform: scale(1.25, 1.25);
+  -ms-transform: scale(1.25, 1.25);
+  transform: scale(1.25, 1.25);
+}
+.icon-trash:before {
+  border-style: solid;
+  border-width: 0.08em 0.08em 0 0.08em;
+  width: .3em;
+  height: .1em;
+  left: .18em;
+  top: -0.2em;
+}
+.icon-trash:after {
+  border-style: solid;
+  border-width: 0.1em 0 0 0;
+  width: 1em;
+  left: -0.1em;
+}
+.icon-upload {
+  border-style: solid;
+  border-width: 0.1em;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -o-border-radius: 100%;
+  border-radius: 100%;
+}
+.icon-upload:before {
+  top: .05em;
+  left: .2em;
+  border-style: solid;
+  border-width: 0 0.2em 0.2em 0.2em;
+  border-top-color: transparent;
+  border-right-color: transparent;
+  border-left-color: transparent;
+}
+.icon-upload:after {
+  width: .2em;
+  top: .15em;
+  left: .3em;
+  border-style: solid;
+  border-width: 0.5em 0 0;
+}
+.icon-headphones {
+  border-style: solid;
+  border-width: 0.1em 0.1em 0.1em 0.1em;
+  -webkit-transform: scale(0.7, 0.6);
+  -ms-transform: scale(0.7, 0.6);
+  transform: scale(0.7, 0.6);
+  -webkit-border-top-left-radius: 100%;
+  -moz-border-top-left-radius: 100%;
+  -o-border-top-left-radius: 100%;
+  border-top-left-radius: 100%;
+  -webkit-border-top-right-radius: 100%;
+  -moz-border-top-right-radius: 100%;
+  -o-border-top-right-radius: 100%;
+  border-top-right-radius: 100%;
+  border-bottom-color: transparent;
+  overflow: visible;
+}
+.icon-headphones:before {
+  -webkit-transform: scale(1.42857143, 1.66666667);
+  -ms-transform: scale(1.42857143, 1.66666667);
+  transform: scale(1.42857143, 1.66666667);
+}
+.icon-headphones:after {
+  -webkit-transform: scale(1.42857143, 1.66666667);
+  -ms-transform: scale(1.42857143, 1.66666667);
+  transform: scale(1.42857143, 1.66666667);
+}
+.icon-headphones:before {
+  width: .2em;
+  height: .3em;
+  border-style: solid;
+  border-width: 0 0.1em 0 0.1em;
+  top: .65em;
+  left: .2em;
+}
 .icon-heart {
   overflow: visible;
   top: .4em;
