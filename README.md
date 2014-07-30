@@ -11,6 +11,27 @@ Xicon
 * `trash`
 * `upload`
 * `headphones`
+* `bookmark`
+* `align-left`
+* `facetime-video`
+* `step-backward`
+* `fast-forward`
+* `step-forward`
+* `ok-sign`
+* `question-sign`
+* `arrow-right`
+* `arrow-up`
+* `comment`
+* `magnet`
+* `resize-vertical`
+* `resize-horizontal`
+* `wrench`
+* `link`
+* `collapse-up`
+* `log-in`
+* `saved`
+* `credit-card`
+* `stats`
 ***
 
 * `minus`
