@@ -186,7 +186,7 @@
         height:.2em;
         left:.15em;
         top:.2em;
-        .border(0 0 .05em .05em);
+        .border(0 0 .1em .1em);
         .transform(rotate(-45deg));
     }
     
@@ -196,15 +196,19 @@
     }
     &question-sign:before{
         top:.1em;
-        left:.2em;
-        .border(.2em);
+        left:.22em;
+        width:.15em;
+        height:.15em;
+        .border(.1em);
         .border-radius;
         .border-color(1,1,1,0);
     }
     &question-sign:after{
-        .border(.1em);
+        width:.12em;
+        height:.08em;
+        .border(.15em 0 .1em 0);
         left:.3em;
-        top:.55em;
+        top:.43em;
     }
     
     &arrow-right:before{
@@ -237,7 +241,7 @@
     
     &comment{
         .border(.5em);
-        .scale(.8,.6);
+        .scale(1,.7);
         .border-radius(.1em);
         overflow:visible;
     }
@@ -252,25 +256,25 @@
     &magnet{
         top:.1em;
         .border(0 .2em .2em .2em);
-        .scale(.5,.5);
+        .scale(.7,.7);
         .border-radius(0 0 .3em .3em);
         overflow:visible;
     }
     &magnet:before{
         top:-.3em;
-        left:-.15em;
-        .border(.05em);
+        left:-.18em;
+        .border(.08em);
     }
     &magnet:after{
         top:-.3em;
-        left:.65em;
-        .border(.05em);
+        left:.6em;
+        .border(.08em);
     }
     
     &resize-vertical{
         left:.4em;
         border-left:.1em solid;
-        .scale(1,.6);
+        .scale(1,.8);
         overflow:visible;
     }
     &resize-vertical:before{
@@ -288,12 +292,12 @@
     
     &resize-horizontal{
         border-bottom:.1em solid;
-        .scale(.7,1);
+        .scale(.9,1);
         top:-.5em;
         overflow:visible
     }
     &resize-horizontal:before{
-        left:-.4em;
+        left:-.3em;
         top:.75em;
         .border(.2em);
         .border-color(0,1,0,0);
@@ -313,8 +317,10 @@
         top:.4em;
     }
     &wrench:before{
+        width:.2em;
+        height:.2em;
         top:-.35em;
-        left:-.3em;
+        left:-.4em;
         .border(.2em);
         .border-radius;
         .border-color(0,1,1,1);
@@ -344,7 +350,7 @@
         height:.4em;
         left:.4em;
         top:.1em;
-        .border(.05em);
+        .border(.1em);
         .border-radius(20% 10% 10% 10%);
         .border-color(1,0,1,1);
         .transform(rotate(30deg));
@@ -353,44 +359,42 @@
         width:.2em;
         height:.4em;
         left:.35em;
-        top:.3em;
-        .border(.05em);
+        top:.4em;
+        .border(.1em);
         .border-radius(20% 10% 10% 10%);
         .border-color(1,1,1,0);
         .transform(rotate(30deg));
     }
     
     &collapse-up{
-       .border(.15em);
-       .border-radius(.2em);
-       .scale(.7,.7);
+       .border(.1em);
     }
     &collapse-up:before{
-        top:.1em;
-        left:.2em;
-        .border(.15em);
+        top:-.1em;
+        left:.1em;
+        .border(.3em);
         .border-color(0,0,1,0);
     }
     
     &log-in{
         left:.2em;
-        .border(.15em);
-        .scale(.4,.5);
+        .border(.2em);
+        .scale(.7,1);
         .border-color(1,1,1,0);
         .border-radius(.1em .1em .1em .1em);
         overflow:visible;
     }
     &log-in:before{
-        top:.35em;
+        top:.2em;
         left:-.6em;
-        width:.3em;
+        width:.5em;
         height:.2em;
-        border-top:.1em solid;
+        border-top:.2em solid;
     }
     &log-in:after{
-        right:.2em;
-        top:.1em;
-        .border(.2em);
+        right:0em;
+        top:.0em;
+        .border(.3em);
         .border-color(0,0,0,1);
     }
     
@@ -403,46 +407,44 @@
         top:.7em;
         width:.1em;
         height:.05em;
-        .border(.05em .2em .05em .7em);
+        .border(.1em .2em .1em .7em);
     }
     &saved:after{
-        left:.1em;
         width:.5em;
         height:.2em;
-        .border(.1em);
-        .border-color(0, 0, 1, 1);
-        .transform(rotate(-40deg));
+        left:.15em;
+        top:.2em;
+        .border(0 0 .1em .1em);
+        .transform(rotate(-45deg));
     }
     
     &credit-card{
         overflow:visible;
         border-top:.1em solid;
         top:.2em;
-        .scale(.7,1);
+        .scale(1,1);
     }
     &credit-card:before{
         top:.1em;
-        left:.15em;
         width:.3em;
         height:.1em;
-        .border(.2em .3em .1em .1em);
+        .border(.3em .5em .1em .2em);
     }
     
     &stats{
-        top:.3em;
-        left:.1em;
-        border-left:.1em solid;
-        .scale(1,.4);
+        top:.2em;
+        border-left:.2em solid;
+        .scale(1,.6);
         overflow:visible;
     }
     &stats:before{
         left:.2em;
-        top:-.2em;
-        .border(.7em 0 0 .1em);
+        top:-.3em;
+        .border(1em 0 0 .2em);
     }
     &stats:after{
-        left:.5em;
-        top:.05em;
-        .border(.55em 0 0 .1em);
+        left:.6em;
+        top:-.05em;
+        .border(.8em 0 0 .2em);
     }
 }
