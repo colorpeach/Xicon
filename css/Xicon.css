@@ -18,13 +18,13 @@
 }
 .icon- {
     /*     &off:before{
-                height:.8em;
-                width:.6em;
-                border-style:solid;
-                border-color:rgba(255,255,255,0) @icon-color;
-                border-width:.1em;
-                .border-radius(50%);
-            } */
+                    height:.8em;
+                    width:.6em;
+                    border-style:solid;
+                    border-color:rgba(255,255,255,0) @icon-color;
+                    border-width:.1em;
+                    .border-radius(50%);
+                } */
 }
 .icon-user:before {
     left: .25em;
@@ -1601,9 +1601,11 @@
 }
 .icon-question-sign:before {
     top: .1em;
-    left: .2em;
+    left: .22em;
+    width: .15em;
+    height: .15em;
     border-style: solid;
-    border-width: 0.2em;
+    border-width: 0.1em;
     -webkit-border-radius: 100%;
     -moz-border-radius: 100%;
     -o-border-radius: 100%;
@@ -1611,10 +1613,12 @@
     border-left-color: transparent;
 }
 .icon-question-sign:after {
+    width: .12em;
+    height: .08em;
     border-style: solid;
-    border-width: 0.1em;
+    border-width: 0.15em 0 0.1em 0;
     left: .3em;
-    top: .55em;
+    top: .43em;
 }
 .icon-arrow-right:before {
     top: .2em;
@@ -1653,9 +1657,9 @@
 .icon-comment {
     border-style: solid;
     border-width: 0.5em;
-    -webkit-transform: scale(0.8, 0.6);
-    -ms-transform: scale(0.8, 0.6);
-    transform: scale(0.8, 0.6);
+    -webkit-transform: scale(1, 0.7);
+    -ms-transform: scale(1, 0.7);
+    transform: scale(1, 0.7);
     -webkit-border-radius: 0.1em;
     -moz-border-radius: 0.1em;
     -o-border-radius: 0.1em;
@@ -1663,14 +1667,14 @@
     overflow: visible;
 }
 .icon-comment:before {
-    -webkit-transform: scale(1.25, 1.66666667);
-    -ms-transform: scale(1.25, 1.66666667);
-    transform: scale(1.25, 1.66666667);
+    -webkit-transform: scale(1, 1.42857143);
+    -ms-transform: scale(1, 1.42857143);
+    transform: scale(1, 1.42857143);
 }
 .icon-comment:after {
-    -webkit-transform: scale(1.25, 1.66666667);
-    -ms-transform: scale(1.25, 1.66666667);
-    transform: scale(1.25, 1.66666667);
+    -webkit-transform: scale(1, 1.42857143);
+    -ms-transform: scale(1, 1.42857143);
+    transform: scale(1, 1.42857143);
 }
 .icon-comment:before {
     left: -0.5em;
@@ -1688,9 +1692,9 @@
     top: .1em;
     border-style: solid;
     border-width: 0 0.2em 0.2em 0.2em;
-    -webkit-transform: scale(0.5, 0.5);
-    -ms-transform: scale(0.5, 0.5);
-    transform: scale(0.5, 0.5);
+    -webkit-transform: scale(0.7, 0.7);
+    -ms-transform: scale(0.7, 0.7);
+    transform: scale(0.7, 0.7);
     -webkit-border-radius: 0 0 0.3em 0.3em;
     -moz-border-radius: 0 0 0.3em 0.3em;
     -o-border-radius: 0 0 0.3em 0.3em;
@@ -1698,44 +1702,44 @@
     overflow: visible;
 }
 .icon-magnet:before {
-    -webkit-transform: scale(2, 2);
-    -ms-transform: scale(2, 2);
-    transform: scale(2, 2);
+    -webkit-transform: scale(1.42857143, 1.42857143);
+    -ms-transform: scale(1.42857143, 1.42857143);
+    transform: scale(1.42857143, 1.42857143);
 }
 .icon-magnet:after {
-    -webkit-transform: scale(2, 2);
-    -ms-transform: scale(2, 2);
-    transform: scale(2, 2);
+    -webkit-transform: scale(1.42857143, 1.42857143);
+    -ms-transform: scale(1.42857143, 1.42857143);
+    transform: scale(1.42857143, 1.42857143);
 }
 .icon-magnet:before {
     top: -0.3em;
-    left: -0.15em;
+    left: -0.18em;
     border-style: solid;
-    border-width: 0.05em;
+    border-width: 0.08em;
 }
 .icon-magnet:after {
     top: -0.3em;
-    left: .65em;
+    left: .6em;
     border-style: solid;
-    border-width: 0.05em;
+    border-width: 0.08em;
 }
 .icon-resize-vertical {
     left: .4em;
     border-left: .1em solid;
-    -webkit-transform: scale(1, 0.6);
-    -ms-transform: scale(1, 0.6);
-    transform: scale(1, 0.6);
+    -webkit-transform: scale(1, 0.8);
+    -ms-transform: scale(1, 0.8);
+    transform: scale(1, 0.8);
     overflow: visible;
 }
 .icon-resize-vertical:before {
-    -webkit-transform: scale(1, 1.66666667);
-    -ms-transform: scale(1, 1.66666667);
-    transform: scale(1, 1.66666667);
+    -webkit-transform: scale(1, 1.25);
+    -ms-transform: scale(1, 1.25);
+    transform: scale(1, 1.25);
 }
 .icon-resize-vertical:after {
-    -webkit-transform: scale(1, 1.66666667);
-    -ms-transform: scale(1, 1.66666667);
-    transform: scale(1, 1.66666667);
+    -webkit-transform: scale(1, 1.25);
+    -ms-transform: scale(1, 1.25);
+    transform: scale(1, 1.25);
 }
 .icon-resize-vertical:before {
     top: -0.4em;
@@ -1757,24 +1761,24 @@
 }
 .icon-resize-horizontal {
     border-bottom: .1em solid;
-    -webkit-transform: scale(0.7, 1);
-    -ms-transform: scale(0.7, 1);
-    transform: scale(0.7, 1);
+    -webkit-transform: scale(0.9, 1);
+    -ms-transform: scale(0.9, 1);
+    transform: scale(0.9, 1);
     top: -0.5em;
     overflow: visible;
 }
 .icon-resize-horizontal:before {
-    -webkit-transform: scale(1.42857143, 1);
-    -ms-transform: scale(1.42857143, 1);
-    transform: scale(1.42857143, 1);
+    -webkit-transform: scale(1.11111111, 1);
+    -ms-transform: scale(1.11111111, 1);
+    transform: scale(1.11111111, 1);
 }
 .icon-resize-horizontal:after {
-    -webkit-transform: scale(1.42857143, 1);
-    -ms-transform: scale(1.42857143, 1);
-    transform: scale(1.42857143, 1);
+    -webkit-transform: scale(1.11111111, 1);
+    -ms-transform: scale(1.11111111, 1);
+    transform: scale(1.11111111, 1);
 }
 .icon-resize-horizontal:before {
-    left: -0.4em;
+    left: -0.3em;
     top: .75em;
     border-style: solid;
     border-width: 0.2em;
@@ -1801,8 +1805,10 @@
     top: .4em;
 }
 .icon-wrench:before {
+    width: .2em;
+    height: .2em;
     top: -0.35em;
-    left: -0.3em;
+    left: -0.4em;
     border-style: solid;
     border-width: 0.2em;
     -webkit-border-radius: 100%;
@@ -1817,7 +1823,7 @@
     left: .4em;
     top: .1em;
     border-style: solid;
-    border-width: 0.05em;
+    border-width: 0.1em;
     -webkit-border-radius: 20% 10% 10% 10%;
     -moz-border-radius: 20% 10% 10% 10%;
     -o-border-radius: 20% 10% 10% 10%;
@@ -1831,9 +1837,9 @@
     width: .2em;
     height: .4em;
     left: .35em;
-    top: .3em;
+    top: .4em;
     border-style: solid;
-    border-width: 0.05em;
+    border-width: 0.1em;
     -webkit-border-radius: 20% 10% 10% 10%;
     -moz-border-radius: 20% 10% 10% 10%;
     -o-border-radius: 20% 10% 10% 10%;
@@ -1845,30 +1851,13 @@
 }
 .icon-collapse-up {
     border-style: solid;
-    border-width: 0.15em;
-    -webkit-border-radius: 0.2em;
-    -moz-border-radius: 0.2em;
-    -o-border-radius: 0.2em;
-    border-radius: 0.2em;
-    -webkit-transform: scale(0.7, 0.7);
-    -ms-transform: scale(0.7, 0.7);
-    transform: scale(0.7, 0.7);
+    border-width: 0.1em;
 }
 .icon-collapse-up:before {
-    -webkit-transform: scale(1.42857143, 1.42857143);
-    -ms-transform: scale(1.42857143, 1.42857143);
-    transform: scale(1.42857143, 1.42857143);
-}
-.icon-collapse-up:after {
-    -webkit-transform: scale(1.42857143, 1.42857143);
-    -ms-transform: scale(1.42857143, 1.42857143);
-    transform: scale(1.42857143, 1.42857143);
-}
-.icon-collapse-up:before {
-    top: .1em;
-    left: .2em;
+    top: -0.1em;
+    left: .1em;
     border-style: solid;
-    border-width: 0.15em;
+    border-width: 0.3em;
     border-top-color: transparent;
     border-right-color: transparent;
     border-left-color: transparent;
@@ -1876,10 +1865,10 @@
 .icon-log-in {
     left: .2em;
     border-style: solid;
-    border-width: 0.15em;
-    -webkit-transform: scale(0.4, 0.5);
-    -ms-transform: scale(0.4, 0.5);
-    transform: scale(0.4, 0.5);
+    border-width: 0.2em;
+    -webkit-transform: scale(0.7, 1);
+    -ms-transform: scale(0.7, 1);
+    transform: scale(0.7, 1);
     border-left-color: transparent;
     -webkit-border-radius: 0.1em 0.1em 0.1em 0.1em;
     -moz-border-radius: 0.1em 0.1em 0.1em 0.1em;
@@ -1888,27 +1877,27 @@
     overflow: visible;
 }
 .icon-log-in:before {
-    -webkit-transform: scale(2.5, 2);
-    -ms-transform: scale(2.5, 2);
-    transform: scale(2.5, 2);
+    -webkit-transform: scale(1.42857143, 1);
+    -ms-transform: scale(1.42857143, 1);
+    transform: scale(1.42857143, 1);
 }
 .icon-log-in:after {
-    -webkit-transform: scale(2.5, 2);
-    -ms-transform: scale(2.5, 2);
-    transform: scale(2.5, 2);
+    -webkit-transform: scale(1.42857143, 1);
+    -ms-transform: scale(1.42857143, 1);
+    transform: scale(1.42857143, 1);
 }
 .icon-log-in:before {
-    top: .35em;
+    top: .2em;
     left: -0.6em;
-    width: .3em;
+    width: .5em;
     height: .2em;
-    border-top: .1em solid;
+    border-top: .2em solid;
 }
 .icon-log-in:after {
-    right: .2em;
-    top: .1em;
+    right: 0em;
+    top: .0em;
     border-style: solid;
-    border-width: 0.2em;
+    border-width: 0.3em;
     border-top-color: transparent;
     border-right-color: transparent;
     border-bottom-color: transparent;
@@ -1922,74 +1911,71 @@
     width: .1em;
     height: .05em;
     border-style: solid;
-    border-width: 0.05em 0.2em 0.05em 0.7em;
+    border-width: 0.1em 0.2em 0.1em 0.7em;
 }
 .icon-saved:after {
-    left: .1em;
     width: .5em;
     height: .2em;
+    left: .15em;
+    top: .2em;
     border-style: solid;
-    border-width: 0.1em;
-    border-top-color: transparent;
-    border-right-color: transparent;
-    -webkit-transform: rotate(-40deg);
-    -ms-transform: rotate(-40deg);
-    transform: rotate(-40deg);
+    border-width: 0 0 0.1em 0.1em;
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
 }
 .icon-credit-card {
     overflow: visible;
     border-top: .1em solid;
     top: .2em;
-    -webkit-transform: scale(0.7, 1);
-    -ms-transform: scale(0.7, 1);
-    transform: scale(0.7, 1);
+    -webkit-transform: scale(1, 1);
+    -ms-transform: scale(1, 1);
+    transform: scale(1, 1);
 }
 .icon-credit-card:before {
-    -webkit-transform: scale(1.42857143, 1);
-    -ms-transform: scale(1.42857143, 1);
-    transform: scale(1.42857143, 1);
+    -webkit-transform: scale(1, 1);
+    -ms-transform: scale(1, 1);
+    transform: scale(1, 1);
 }
 .icon-credit-card:after {
-    -webkit-transform: scale(1.42857143, 1);
-    -ms-transform: scale(1.42857143, 1);
-    transform: scale(1.42857143, 1);
+    -webkit-transform: scale(1, 1);
+    -ms-transform: scale(1, 1);
+    transform: scale(1, 1);
 }
 .icon-credit-card:before {
     top: .1em;
-    left: .15em;
     width: .3em;
     height: .1em;
     border-style: solid;
-    border-width: 0.2em 0.3em 0.1em 0.1em;
+    border-width: 0.3em 0.5em 0.1em 0.2em;
 }
 .icon-stats {
-    top: .3em;
-    left: .1em;
-    border-left: .1em solid;
-    -webkit-transform: scale(1, 0.4);
-    -ms-transform: scale(1, 0.4);
-    transform: scale(1, 0.4);
+    top: .2em;
+    border-left: .2em solid;
+    -webkit-transform: scale(1, 0.6);
+    -ms-transform: scale(1, 0.6);
+    transform: scale(1, 0.6);
     overflow: visible;
 }
 .icon-stats:before {
-    -webkit-transform: scale(1, 2.5);
-    -ms-transform: scale(1, 2.5);
-    transform: scale(1, 2.5);
+    -webkit-transform: scale(1, 1.66666667);
+    -ms-transform: scale(1, 1.66666667);
+    transform: scale(1, 1.66666667);
 }
 .icon-stats:after {
-    -webkit-transform: scale(1, 2.5);
-    -ms-transform: scale(1, 2.5);
-    transform: scale(1, 2.5);
+    -webkit-transform: scale(1, 1.66666667);
+    -ms-transform: scale(1, 1.66666667);
+    transform: scale(1, 1.66666667);
 }
 .icon-stats:before {
     left: .2em;
-    top: -0.2em;
+    top: -0.3em;
     border-style: solid;
-    border-width: 0.7em 0 0 0.1em;
+    border-width: 1em 0 0 0.2em;
 }
 .icon-stats:after {
-    left: .5em;
-    top: .05em;
+    left: .6em;
+    top: -0.05em;
     border-style: solid;
-    border-width: 0.55em 0 0 0.1em;
+    border-width: 0.8em 0 0 0.2em;
 }
