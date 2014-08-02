@@ -10,7 +10,9 @@
   box-sizing: border-box;
 }
 [class^='icon-']:before,
-[class^='icon-']:after {
+[class*=" xicon-"]:before,
+[class^='icon-']:after,
+[class*=" xicon-"]:after{
   content: '';
   pointer-events: none;
   display: block;
