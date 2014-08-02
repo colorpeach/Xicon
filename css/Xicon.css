@@ -9,9 +9,9 @@
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-[class^='icon-']:before,
+[class^='xicon-']:before,
 [class*=" xicon-"]:before,
-[class^='icon-']:after,
+[class^='xicon-']:after,
 [class*=" xicon-"]:after{
   content: '';
   pointer-events: none;
