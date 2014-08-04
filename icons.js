@@ -54,7 +54,10 @@ var icons = [
     "minus",
     "ok",
     "ok-circle",
+<<<<<<< HEAD
     "ok-sign",
+=======
+>>>>>>> xinhuarao-master
     "open",
     "pause",
     "pencil",
@@ -90,4 +93,8 @@ var icons = [
     "wrench",
     "zoom-in",
     "zoom-out"
+<<<<<<< HEAD
 ];
+=======
+];
+>>>>>>> xinhuarao-master
