@@ -3,102 +3,107 @@ Xicon
 
 纯css实现的图标库
 
+Live demo
+=====
+[http://doc.colorpeach.com/projects/Xicon](http://doc.colorpeach.com/projects/Xicon)
+
 进度
 =====
 下面列出了所有的图标，有`背景`的图标是已经实现了的，没有背景的图标还未实现；
-* `asterisk`
-* `th-list`
-* `trash`
-* `upload`
-* `headphones`
-* `bookmark`
+* `adjust`
+* `align-center`
+* `align-justify`
 * `align-left`
-* `facetime-video`
-* `step-backward`
-* `fast-forward`
-* `step-forward`
-* `ok-sign`
-* `question-sign`
+* `arrow-down`
+* `arrow-left`
 * `arrow-right`
 * `arrow-up`
-* `comment`
-* `magnet`
-* `resize-vertical`
-* `resize-horizontal`
-* `wrench`
-* `link`
-* `collapse-up`
-* `log-in`
-* `saved`
-* `credit-card`
-* `stats`
-***
-
-* `minus`
-* `heart`
-* `ok`
-* `remove`
-* `home`
-* `file`
-* `play-circle`
-* `align-center`
-* `map-marker`
-* `adjust`
-* `fast-background`
-* `background`
-* `eject`
-* `chevron-left`
-* `screenshot`
-* `arrow-down`
-* `chevron-up`
-* `chevron-down`
-* `tasks`
-* `filter`
-* `phone`
-* `flash`
-* `export`
-
-***
-
-* `user`
-* `mail`
-* `pencil`
-* `glass`
-* `film`
-* `th-large`
-* `zoom-in`
-* `zoom-out`
-* `signal`
-* `time`
-* `download`
-* `lock`
-* `flag`
-* `barcode`
-* `tag`
-* `tags`
-* `font`
-* `bold`
-* `italic`
-* `align-justify`
-* `list1`
-* `check`
-* `play`
-* `pause`
-* `stop`
-* `forward`
-* `chevron-right`
-* `remove-circle`
-* `ok-circle`
+* `asterisk`
+* `backward`
 * `ban-circle`
-* `arrow-left`
+* `barcode`
+* `bold`
+* `bookmark`
+* `certificate`
+* `check`
+* `chevron-down`
+* `chevron-left`
+* `chevron-right`
+* `chevron-up`
+* `collapse-down`
+* `collapse-up`
+* `comment`
+* `credit-card`
+* `download`
+* `eject`
+* `expand`
+* `facetime-video`
+* `fast-backward`
+* `fast-forward`
+* `file`
+* `film`
+* `filter`
+* `flag`
+* `flash`
 * `folder-close`
 * `folder-open`
-* `certificate`
-* `unchecked`
-* `expand`
-* `collapse-down`
-* `record`
-* `save`
+* `font`
+* `forward`
+* `glass`
+* `headphones`
+* `heart`
+* `home`
+* `italic`
+* `link`
+* `list`
+* `list1`
+* `lock`
+* `log-in`
+* `magnet`
+* `mail`
+* `map-marker`
+* `minus`
+* `ok`
+* `ok-circle`
+* `ok-sign`
 * `open`
+* `pause`
+* `pencil`
+* `phone`
+* `play`
+* `play-circle`
+* `plus`
+* `question-sign`
+* `record`
+* `remove`
+* `remove-circle`
+* `resize-horizontal`
+* `resize-vertical`
+* `save`
+* `saved`
+* `screenshot`
+* `signal`
+* `star`
+* `stats`
+* `step-backward`
+* `step-forward`
+* `stop`
+* `tag`
+* `tags`
+* `tasks`
+* `th-large`
+* `th-list`
+* `time`
+* `trash`
+* `unchecked`
+* `upload`
+* `user`
+* `wrench`
+* `zoom-in`
+* `zoom-out`
 
-
+贡献者
+=====
+* [colorpeach](https://github.com/colorpeach)
+* [xueweitan](https://github.com/tanxuewei)
+* [xinhuarao](https://github.com/xinhuarao)

@@ -102,7 +102,7 @@
     border-width:@border;
 }
 
-[class^='icon-']{
+[class^="xicon-"], [class*=" xicon-"]{
     display:inline-block;
     vertical-align: middle;
     position: relative;
@@ -112,15 +112,17 @@
     .box-sizing;
 }
 
-[class^='icon-']:before,
-[class^='icon-']:after{
+[class^='xicon-']:before,
+[class*=" xicon-"]:before,
+[class^='xicon-']:after,
+[class*=" xicon-"]:after{
     content: '';
     pointer-events: none;
     display:block;
     position:absolute;
 }
 
-.icon-{
+.xicon-{
     &user:before{
         left:.25em;
         z-index: 1;
