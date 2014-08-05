@@ -123,28 +123,31 @@
     
     &fast-backward{
         overflow: visible;
-        .border(0 0 0 .2em);
-        .border-color(0,0,0,1);
-        .scale(.8,.8);
+        border-left: .1em solid;
+        .scale(1,.6);
+        left: .2em;
     }
-    &fast-backward:before,
-    &fast-backward:after{
-        top: .1em;
-        .border(.4em .4em .4em 0);
+    &fast-backward:before{
+        top: .2em;
+        right: .6em;
+        .border(.3em .3em .3em 0);
         .border-color(0,1,0,0);
     }
     &fast-backward:after{
-        left: .4em;
+        top: .2em;
+        right: .3em;
+        .border(.3em .3em .3em 0);
+        .border-color(0,1,0,0);
     }
     
     &backward:before,
     &backward:after{
-        top: .1em;
-        .border(.4em .4em .4em 0);
+        top: .2em;
+        .border(.3em .3em .3em 0);
         .border-color(0,1,0,0);
     }
     &backward:before{
-        left: .1em;
+        left: .2em;
     }
     &backward:after{
         left: .5em;
