@@ -54,7 +54,6 @@ var icons = [
     "minus",
     "ok",
     "ok-circle",
-    "ok-sign",
     "open",
     "pause",
     "pencil",
