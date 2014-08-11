@@ -14,6 +14,7 @@ Live demo
 * `align-center`
 * `align-justify`
 * `align-left`
+* `align-right`
 * `arrow-down`
 * `arrow-left`
 * `arrow-right`
@@ -30,6 +31,7 @@ Live demo
 * `chevron-left`
 * `chevron-right`
 * `chevron-up`
+* `cloud`
 * `collapse-down`
 * `collapse-up`
 * `comment`
@@ -82,6 +84,7 @@ Live demo
 * `save`
 * `saved`
 * `screenshot`
+* `search`
 * `signal`
 * `star`
 * `stats`
