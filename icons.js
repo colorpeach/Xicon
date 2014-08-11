@@ -3,6 +3,7 @@ var icons = [
     "align-center",
     "align-justify",
     "align-left",
+    "align-right",
     "arrow-down",
     "arrow-left",
     "arrow-right",
@@ -19,6 +20,7 @@ var icons = [
     "chevron-left",
     "chevron-right",
     "chevron-up",
+    "cloud",
     "collapse-down",
     "collapse-up",
     "comment",
@@ -70,6 +72,7 @@ var icons = [
     "save",
     "saved",
     "screenshot",
+    "search",
     "signal",
     "star",
     "stats",
@@ -88,5 +91,5 @@ var icons = [
     "user",
     "wrench",
     "zoom-in",
-    "zoom-out"
+    "zoom-out",
 ];
