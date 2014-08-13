@@ -106,6 +106,31 @@
         .transform(scale(1,1.4));
     }
     
+    &align-left:before{
+        height:.4em;
+        width:.7em;
+        .border(.14em 0 .14em 0);      
+    }
+    &align-left:after{
+        height:.4em;
+        top:.25em;
+        width:1em;
+        .border(.14em 0 .14em 0);      
+    }
+    
+    &align-right:before{
+        left:.3em;
+        height:.4em;
+        width:.7em;
+        .border(.14em 0 .14em 0);      
+    }
+    &align-right:after{
+        height:.4em;
+        top:.25em;
+        width:1em;
+        .border(.14em 0 .14em 0);      
+    }
+    
     &facetime-video{
         left:-.2em;
         .border(.5em);
@@ -404,5 +429,13 @@
         left:.6em;
         top:-.05em;
         .border(.8em 0 0 .2em);
+    }
+    
+    &cloud{
+        left:-.32em;
+        .border-radius(50%);
+        .border(.5em);
+        .scale(.4,.4);
+        box-shadow:.4em -.4em 0 .1em,.95em -.3em,1.5em -.1em 0 0,1em .2em 0 -.1em,.4em .3em 0 -.1em;
     }
 }

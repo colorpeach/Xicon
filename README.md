@@ -31,6 +31,7 @@ Live demo
 * `chevron-left`
 * `chevron-right`
 * `chevron-up`
+* `cloud`
 * `collapse-down`
 * `collapse-up`
 * `comment`

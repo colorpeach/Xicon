@@ -20,6 +20,7 @@ var icons = [
     "chevron-left",
     "chevron-right",
     "chevron-up",
+    "cloud",
     "collapse-down",
     "collapse-up",
     "comment",
@@ -92,5 +93,5 @@ var icons = [
     "user",
     "wrench",
     "zoom-in",
-    "zoom-out"
+    "zoom-out",
 ];
