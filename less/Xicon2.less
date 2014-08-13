@@ -92,6 +92,29 @@
         top: .28em;
         .border(.14em 0);
     }
+    &align-left:before{
+        width: .72em;
+        height: .42em;
+        .border(.14em 0);
+    }
+    &align-left:after{
+        width: 1em;
+        height: .42em;
+        top: .28em;
+        .border(.14em 0);
+    }
+    &align-right:before{
+        width: .72em;
+        height: .42em;
+        left: .28em;
+        .border(.14em 0);
+    }
+    &align-right:after{
+        width: 1em;
+        height: .42em;
+        top: .28em;
+        .border(.14em 0);
+    }
     
     &map-marker:before{
         width: .4em;
@@ -123,28 +146,31 @@
     
     &fast-backward{
         overflow: visible;
-        .border(0 0 0 .2em);
-        .border-color(0,0,0,1);
-        .scale(.8,.8);
+        border-left: .1em solid;
+        .scale(1,.6);
+        left: .2em;
     }
-    &fast-backward:before,
-    &fast-backward:after{
-        top: .1em;
-        .border(.4em .4em .4em 0);
+    &fast-backward:before{
+        top: .2em;
+        right: .6em;
+        .border(.3em .3em .3em 0);
         .border-color(0,1,0,0);
     }
     &fast-backward:after{
-        left: .4em;
+        top: .2em;
+        right: .3em;
+        .border(.3em .3em .3em 0);
+        .border-color(0,1,0,0);
     }
     
     &backward:before,
     &backward:after{
-        top: .1em;
-        .border(.4em .4em .4em 0);
+        top: .2em;
+        .border(.3em .3em .3em 0);
         .border-color(0,1,0,0);
     }
     &backward:before{
-        left: .1em;
+        left: .2em;
     }
     &backward:after{
         left: .5em;
@@ -287,5 +313,53 @@
         .border(.2em .5em 0 .1em);
         .border-color(1,0,0,0);
         .transform(rotate(135deg));
+    }
+    
+    &search:before{
+        height: .5em;
+        width: .5em;
+        top: .15em;
+        left: .15em;
+        .border(.1em);
+        .border-radius(50%);
+    }
+    &search:after{
+        left: .7em;
+        top: .8em;
+        width: .3em;
+        .border(.1em 0 0);
+        .transform(rotate(45deg));
+    }
+    
+    &redo:before{
+        height: .6em;
+        width: .6em;
+        top: .1em;
+        left: .1em;
+        .border(.1em);
+        .border-radius(50%);
+        .border-color(1,0,1,1);
+    }
+    &redo:after{
+        top: .23em;
+        left: .6em;
+        .border(.2em .2em 0 .2em);
+        .border-color(1, 0, 0, 0);
+        .transform(rotate(-45deg));
+    }
+    &undo:before{
+        height: .6em;
+        width: .6em;
+        top: .1em;
+        left: .1em;
+        .border(.1em);
+        .border-radius(50%);
+        .border-color(1,1,1,0);
+    }
+    &undo:after{
+        top: .23em;
+        .border(.2em .2em 0 .2em);
+        .border-color(1, 0, 0, 0);
+        .transform(rotate(45deg));
     }
 }

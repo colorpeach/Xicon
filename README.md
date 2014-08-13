@@ -14,6 +14,7 @@ Live demo
 * `align-center`
 * `align-justify`
 * `align-left`
+* `align-right`
 * `arrow-down`
 * `arrow-left`
 * `arrow-right`
@@ -75,6 +76,7 @@ Live demo
 * `plus`
 * `question-sign`
 * `record`
+* `redo`
 * `remove`
 * `remove-circle`
 * `resize-horizontal`
@@ -82,6 +84,7 @@ Live demo
 * `save`
 * `saved`
 * `screenshot`
+* `search`
 * `signal`
 * `star`
 * `stats`
@@ -96,6 +99,7 @@ Live demo
 * `time`
 * `trash`
 * `unchecked`
+* `undo`
 * `upload`
 * `user`
 * `wrench`
