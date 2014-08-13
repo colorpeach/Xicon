@@ -142,19 +142,22 @@
         z-index: 1;
     }
     &plus:before{
-        width: 1em;
+        width: .7em;
         top: .4em;
+        left: .15em;
         .border(.2em 0 0);
     }
     &plus:after {
-        height: 1em;
+        height: .7em;
+        top: .15em;
         left: .4em;
         .border(0 0 0 .2em);
     }
     
     &minus:before {
-        width: 1em;
+        width: .7em;
         top: .4em;
+        left: .15em;
         z-index: 1;
         .border(.2em 0 0);
     }
@@ -571,6 +574,23 @@
         .border-color(0,0,0,1);
     }
     
+    &mail:before {
+        top:.15em;
+        left:0;
+        width:0;
+        height:0;
+        .border(.4em .5em 0 .5em);
+        .border-color(1,0,0,0);
+    }
+    &mail:after{
+        top:.2em;
+        left:0;
+        width:0;
+        height:0;
+        .border(.4em .5em .2em .5em);
+        .border-color(0,1,1,1);
+    }
+    
     &save{
         overflow:visible;
         left:.15em;
@@ -656,14 +676,6 @@
         left:-1.75em;
         box-shadow:.3em .2em,.2em .3em,.3em .3em,.4em .3em,.3em .4em;
         .transform(rotate(-45deg) scale(2.5,2.5));
-    }
-    
-    &mail:before {
-        top:0;
-        left:0;
-        width:.05em;
-        height:.05em;
-        box-shadow:.05em .15em ,.1em .15em ,.15em .15em ,.2em .15em ,.25em .15em ,.3em .15em ,.35em .15em ,.4em .15em ,.45em .15em ,.5em .15em ,.55em .15em ,.6em .15em ,.65em .15em ,.7em .15em ,.75em .15em ,.8em .15em ,.85em .15em ,.9em .15em ,0 .2em ,.1em .2em ,.15em .2em ,.2em .2em ,.25em .2em ,.3em .2em ,.35em .2em ,.4em .2em ,.45em .2em ,.5em .2em ,.55em .2em ,.6em .2em ,.65em .2em ,.7em .2em ,.75em .2em ,.8em .2em ,.85em .2em ,.95em .2em ,0 .25em ,.05em .25em ,.15em .25em ,.2em .25em ,.25em .25em ,.3em .25em ,.35em .25em ,.4em .25em ,.45em .25em ,.5em .25em ,.55em .25em ,.6em .25em ,.65em .25em ,.7em .25em ,.75em .25em ,.8em .25em ,.9em .25em ,.95em .25em ,0 .3em ,.05em .3em ,.1em .3em ,.2em .3em ,.25em .3em ,.3em .3em ,.35em .3em ,.4em .3em ,.45em .3em ,.5em .3em ,.55em .3em ,.6em .3em ,.65em .3em ,.7em .3em ,.75em .3em ,.85em .3em ,.9em .3em ,.95em .3em ,0 .35em ,.05em .35em ,.1em .35em ,.15em .35em ,.25em .35em ,.3em .35em ,.35em .35em ,.4em .35em ,.45em .35em ,.5em .35em ,.55em .35em ,.6em .35em ,.65em .35em ,.7em .35em ,.8em .35em ,.85em .35em ,.9em .35em ,.95em .35em ,0 .4em ,.05em .4em ,.1em .4em ,.15em .4em ,.2em .4em ,.3em .4em ,.35em .4em ,.4em .4em ,.45em .4em ,.5em .4em ,.55em .4em ,.6em .4em ,.65em .4em ,.75em .4em ,.8em .4em ,.85em .4em ,.9em .4em ,.95em .4em ,0 .45em ,.05em .45em ,.1em .45em ,.15em .45em ,.2em .45em ,.25em .45em ,.35em .45em ,.4em .45em ,.45em .45em ,.5em .45em ,.55em .45em ,.6em .45em ,.7em .45em ,.75em .45em ,.8em .45em ,.85em .45em ,.9em .45em ,.95em .45em ,0 .5em ,.05em .5em ,.1em .5em ,.15em .5em ,.2em .5em ,.25em .5em ,.3em .5em ,.4em .5em ,.45em .5em ,.5em .5em ,.55em .5em ,.65em .5em ,.7em .5em ,.75em .5em ,.8em .5em ,.85em .5em ,.9em .5em ,.95em .5em ,0 .55em ,.05em .55em ,.1em .55em ,.15em .55em ,.2em .55em ,.25em .55em ,.3em .55em ,.35em .55em ,.45em .55em ,.5em .55em ,.6em .55em ,.65em .55em ,.7em .55em ,.75em .55em ,.8em .55em ,.85em .55em ,.9em .55em ,.95em .55em ,0 .6em ,.05em .6em ,.1em .6em ,.15em .6em ,.2em .6em ,.25em .6em ,.3em .6em ,.35em .6em ,.4em .6em ,.55em .6em ,.6em .6em ,.65em .6em ,.7em .6em ,.75em .6em ,.8em .6em ,.85em .6em ,.9em .6em ,.95em .6em ,0 .65em ,.05em .65em ,.1em .65em ,.15em .65em ,.2em .65em ,.25em .65em ,.3em .65em ,.35em .65em ,.4em .65em ,.45em .65em ,.5em .65em ,.55em .65em ,.6em .65em ,.65em .65em ,.7em .65em ,.75em .65em ,.8em .65em ,.85em .65em ,.9em .65em ,.95em .65em ,0 .7em ,.05em .7em ,.1em .7em ,.15em .7em ,.2em .7em ,.25em .7em ,.3em .7em ,.35em .7em ,.4em .7em ,.45em .7em ,.5em .7em ,.55em .7em ,.6em .7em ,.65em .7em ,.7em .7em ,.75em .7em ,.8em .7em ,.85em .7em ,.9em .7em ,.95em .7em ,0 .75em ,.05em .75em ,.1em .75em ,.15em .75em ,.2em .75em ,.25em .75em ,.3em .75em ,.35em .75em ,.4em .75em ,.45em .75em ,.5em .75em ,.55em .75em ,.6em .75em ,.65em .75em ,.7em .75em ,.75em .75em ,.8em .75em ,.85em .75em ,.9em .75em ,.95em .75em ,.05em .8em ,.1em .8em ,.15em .8em ,.2em .8em ,.25em .8em ,.3em .8em ,.35em .8em ,.4em .8em ,.45em .8em ,.5em .8em ,.55em .8em ,.6em .8em ,.65em .8em ,.7em .8em ,.75em .8em ,.8em .8em ,.85em .8em ,.9em .8em ;
     }
     
     &barcode:before {
