@@ -5,7 +5,7 @@ Xicon
 
 Live demo
 =====
-[http://colorpeach.github.io/Xicon/](http://colorpeach.github.io/Xicon/)
+[http://colorpeach.github.io/Xicon/](http://colorpeach.github.io/Xicon/) 
 
 进度
 =====
