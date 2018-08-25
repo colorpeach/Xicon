@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/colorpeach/Xicon",
   "devDependencies": {
-    "grunt": "^0.4.5",
-    "grunt-contrib-less": "^0.11.3"
+    "grunt": "^1.0.3",
+    "grunt-contrib-less": "^2.0.0"
   }
 }
