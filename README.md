@@ -1,6 +1,8 @@
 Xicon
 =====
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/colorpeach/Xicon.svg)](https://greenkeeper.io/)
+
 纯css实现的图标库
 
 Live demo
